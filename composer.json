@@ -1,0 +1,22 @@
+{
+    "name": "uxint/curl",
+    "description": "Standards compliant CURL library written in PHP",
+    "type": "library",
+    "keywords": ["CURL", "PHP CURL"],
+    "homepage": "https://github.com/lawrencemhoni/curl",
+    "license": "LGPL",
+    "authors": [
+        {
+            "name": "Lawrence Mhoni",
+            "email": "lawrencemhoni@gmail.com",
+            "homepage": ""
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+
+    "autoload": {
+        "psr-0": { "Uxint\\Curl": "src/" }
+    }
+}
